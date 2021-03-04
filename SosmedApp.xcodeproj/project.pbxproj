@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,39 @@
 		0F29FBDC25E53E2D00D52C8E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F29FBDB25E53E2D00D52C8E /* Preview Assets.xcassets */; };
 		0F29FBE725E53E2E00D52C8E /* SosmedAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F29FBE625E53E2E00D52C8E /* SosmedAppTests.swift */; };
 		0F29FBF225E53E2E00D52C8E /* SosmedAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F29FBF125E53E2E00D52C8E /* SosmedAppUITests.swift */; };
+		0F29FC0325E5430700D52C8E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F29FC0225E5430700D52C8E /* GoogleService-Info.plist */; };
+		0F29FC2225E548A500D52C8E /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F29FC2125E548A500D52C8E /* Login.swift */; };
+		0F96369D25E611680006DA81 /* splash4.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F96369C25E611680006DA81 /* splash4.json */; };
+		0F9636B525E6900F0006DA81 /* Poppins-ExtraLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0F9636A225E68FFA0006DA81 /* Poppins-ExtraLightItalic.otf */; };
+		0F9636B625E6900F0006DA81 /* Poppins-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0F9636A325E68FFB0006DA81 /* Poppins-BoldItalic.otf */; };
+		0F9636B725E6900F0006DA81 /* Poppins-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0F9636A425E68FFC0006DA81 /* Poppins-Bold.otf */; };
+		0F9636B825E6900F0006DA81 /* Poppins-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0F9636A525E68FFD0006DA81 /* Poppins-MediumItalic.otf */; };
+		0F9636B925E6900F0006DA81 /* Poppins-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0F9636A625E68FFE0006DA81 /* Poppins-Thin.otf */; };
+		0F9636BA25E6900F0006DA81 /* Poppins-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0F9636A725E68FFF0006DA81 /* Poppins-Black.otf */; };
+		0F9636BB25E6900F0006DA81 /* Poppins-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0F9636A825E690010006DA81 /* Poppins-ExtraLight.otf */; };
+		0F9636BC25E6900F0006DA81 /* Poppins-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0F9636A925E690020006DA81 /* Poppins-Light.otf */; };
+		0F9636BD25E6900F0006DA81 /* Poppins-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0F9636AA25E690030006DA81 /* Poppins-ThinItalic.otf */; };
+		0F9636BE25E6900F0006DA81 /* Poppins-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0F9636AB25E690040006DA81 /* Poppins-BlackItalic.otf */; };
+		0F9636BF25E6900F0006DA81 /* Poppins-ExtraBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0F9636AC25E690050006DA81 /* Poppins-ExtraBoldItalic.otf */; };
+		0F9636C025E6900F0006DA81 /* Poppins-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0F9636AD25E690060006DA81 /* Poppins-Medium.otf */; };
+		0F9636C125E6900F0006DA81 /* Poppins-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0F9636AE25E690070006DA81 /* Poppins-Italic.otf */; };
+		0F9636C225E6900F0006DA81 /* Poppins-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0F9636AF25E690080006DA81 /* Poppins-LightItalic.otf */; };
+		0F9636C325E6900F0006DA81 /* Poppins-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0F9636B025E690090006DA81 /* Poppins-SemiBold.otf */; };
+		0F9636C425E6900F0006DA81 /* Poppins-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0F9636B125E6900B0006DA81 /* Poppins-Regular.otf */; };
+		0F9636C525E6900F0006DA81 /* Poppins-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0F9636B225E6900C0006DA81 /* Poppins-ExtraBold.otf */; };
+		0F9636C625E6900F0006DA81 /* SIL Open Font License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0F9636B325E6900E0006DA81 /* SIL Open Font License.txt */; };
+		0F9636C725E6900F0006DA81 /* Poppins-SemiBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0F9636B425E6900F0006DA81 /* Poppins-SemiBoldItalic.otf */; };
+		0F9636D525E718A70006DA81 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9636D425E718A70006DA81 /* Home.swift */; };
+		0F9636DA25E891AA0006DA81 /* WalkThroughScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9636D925E891AA0006DA81 /* WalkThroughScreen.swift */; };
+		0F9636DF25E8D1E70006DA81 /* WTimg.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F9636DE25E8D1E70006DA81 /* WTimg.json */; };
+		0F9636E425E8D1F90006DA81 /* WTimg1.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F9636E325E8D1F90006DA81 /* WTimg1.json */; };
+		0F9636E925E8D87D0006DA81 /* wt.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F9636E825E8D87D0006DA81 /* wt.json */; };
+		0F9636EE25E9CDFB0006DA81 /* SetupProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9636ED25E9CDFB0006DA81 /* SetupProfile.swift */; };
+		0F9636F325E9CF2D0006DA81 /* SetProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9636F225E9CF2D0006DA81 /* SetProfileViewModel.swift */; };
+		0F9636F825E9FCB20006DA81 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9636F725E9FCB20006DA81 /* ImagePicker.swift */; };
+		2106F4E941412196AC03DFFA /* Pods_SosmedApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE7EFC3750B7061931A69914 /* Pods_SosmedApp.framework */; };
+		A2CA6094D94F789D7A6B4F49 /* Pods_SosmedAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D14128D4E5B396C0AB54631E /* Pods_SosmedAppTests.framework */; };
+		CD47B1E69DEB7F21F0B7C630 /* Pods_SosmedApp_SosmedAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D27F7C61CCDE50668DCCF01 /* Pods_SosmedApp_SosmedAppUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +66,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06376428BB7D75AC6CE00979 /* Pods-SosmedAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SosmedAppTests.debug.xcconfig"; path = "Target Support Files/Pods-SosmedAppTests/Pods-SosmedAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		0F29FBD125E53E2200D52C8E /* SosmedApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SosmedApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F29FBD425E53E2200D52C8E /* SosmedAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SosmedAppApp.swift; sourceTree = "<group>"; };
 		0F29FBD625E53E2200D52C8E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +79,44 @@
 		0F29FBED25E53E2E00D52C8E /* SosmedAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SosmedAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F29FBF125E53E2E00D52C8E /* SosmedAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SosmedAppUITests.swift; sourceTree = "<group>"; };
 		0F29FBF325E53E2E00D52C8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F29FC0225E5430700D52C8E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0F29FC2125E548A500D52C8E /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		0F96369C25E611680006DA81 /* splash4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = splash4.json; sourceTree = "<group>"; };
+		0F9636A225E68FFA0006DA81 /* Poppins-ExtraLightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLightItalic.otf"; sourceTree = "<group>"; };
+		0F9636A325E68FFB0006DA81 /* Poppins-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BoldItalic.otf"; sourceTree = "<group>"; };
+		0F9636A425E68FFC0006DA81 /* Poppins-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.otf"; sourceTree = "<group>"; };
+		0F9636A525E68FFD0006DA81 /* Poppins-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.otf"; sourceTree = "<group>"; };
+		0F9636A625E68FFE0006DA81 /* Poppins-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.otf"; sourceTree = "<group>"; };
+		0F9636A725E68FFF0006DA81 /* Poppins-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.otf"; sourceTree = "<group>"; };
+		0F9636A825E690010006DA81 /* Poppins-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.otf"; sourceTree = "<group>"; };
+		0F9636A925E690020006DA81 /* Poppins-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.otf"; sourceTree = "<group>"; };
+		0F9636AA25E690030006DA81 /* Poppins-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.otf"; sourceTree = "<group>"; };
+		0F9636AB25E690040006DA81 /* Poppins-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BlackItalic.otf"; sourceTree = "<group>"; };
+		0F9636AC25E690050006DA81 /* Poppins-ExtraBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBoldItalic.otf"; sourceTree = "<group>"; };
+		0F9636AD25E690060006DA81 /* Poppins-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.otf"; sourceTree = "<group>"; };
+		0F9636AE25E690070006DA81 /* Poppins-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Italic.otf"; sourceTree = "<group>"; };
+		0F9636AF25E690080006DA81 /* Poppins-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-LightItalic.otf"; sourceTree = "<group>"; };
+		0F9636B025E690090006DA81 /* Poppins-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.otf"; sourceTree = "<group>"; };
+		0F9636B125E6900B0006DA81 /* Poppins-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.otf"; sourceTree = "<group>"; };
+		0F9636B225E6900C0006DA81 /* Poppins-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.otf"; sourceTree = "<group>"; };
+		0F9636B325E6900E0006DA81 /* SIL Open Font License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "SIL Open Font License.txt"; sourceTree = "<group>"; };
+		0F9636B425E6900F0006DA81 /* Poppins-SemiBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBoldItalic.otf"; sourceTree = "<group>"; };
+		0F9636D425E718A70006DA81 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		0F9636D925E891AA0006DA81 /* WalkThroughScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkThroughScreen.swift; sourceTree = "<group>"; };
+		0F9636DE25E8D1E70006DA81 /* WTimg.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = WTimg.json; sourceTree = "<group>"; };
+		0F9636E325E8D1F90006DA81 /* WTimg1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = WTimg1.json; sourceTree = "<group>"; };
+		0F9636E825E8D87D0006DA81 /* wt.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = wt.json; sourceTree = "<group>"; };
+		0F9636ED25E9CDFB0006DA81 /* SetupProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupProfile.swift; sourceTree = "<group>"; };
+		0F9636F225E9CF2D0006DA81 /* SetProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetProfileViewModel.swift; sourceTree = "<group>"; };
+		0F9636F725E9FCB20006DA81 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		414A9633C0D7A22BC74A8E06 /* Pods-SosmedApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SosmedApp.release.xcconfig"; path = "Target Support Files/Pods-SosmedApp/Pods-SosmedApp.release.xcconfig"; sourceTree = "<group>"; };
+		8D27F7C61CCDE50668DCCF01 /* Pods_SosmedApp_SosmedAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SosmedApp_SosmedAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		973631E65AC5BCB8F73B457B /* Pods-SosmedAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SosmedAppTests.release.xcconfig"; path = "Target Support Files/Pods-SosmedAppTests/Pods-SosmedAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		AE521F84C4A99163CFD753C5 /* Pods-SosmedApp-SosmedAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SosmedApp-SosmedAppUITests.release.xcconfig"; path = "Target Support Files/Pods-SosmedApp-SosmedAppUITests/Pods-SosmedApp-SosmedAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AE7EFC3750B7061931A69914 /* Pods_SosmedApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SosmedApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B775E931F31086DF38BC7561 /* Pods-SosmedApp-SosmedAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SosmedApp-SosmedAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-SosmedApp-SosmedAppUITests/Pods-SosmedApp-SosmedAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D14128D4E5B396C0AB54631E /* Pods_SosmedAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SosmedAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC378731B2C0ABBB23C8A392 /* Pods-SosmedApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SosmedApp.debug.xcconfig"; path = "Target Support Files/Pods-SosmedApp/Pods-SosmedApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2106F4E941412196AC03DFFA /* Pods_SosmedApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2CA6094D94F789D7A6B4F49 /* Pods_SosmedAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +140,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD47B1E69DEB7F21F0B7C630 /* Pods_SosmedApp_SosmedAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09577C773BBC763E5EF8AE6D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC378731B2C0ABBB23C8A392 /* Pods-SosmedApp.debug.xcconfig */,
+				414A9633C0D7A22BC74A8E06 /* Pods-SosmedApp.release.xcconfig */,
+				B775E931F31086DF38BC7561 /* Pods-SosmedApp-SosmedAppUITests.debug.xcconfig */,
+				AE521F84C4A99163CFD753C5 /* Pods-SosmedApp-SosmedAppUITests.release.xcconfig */,
+				06376428BB7D75AC6CE00979 /* Pods-SosmedAppTests.debug.xcconfig */,
+				973631E65AC5BCB8F73B457B /* Pods-SosmedAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		0F29FBC825E53E2200D52C8E = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +167,8 @@
 				0F29FBE525E53E2E00D52C8E /* SosmedAppTests */,
 				0F29FBF025E53E2E00D52C8E /* SosmedAppUITests */,
 				0F29FBD225E53E2200D52C8E /* Products */,
+				09577C773BBC763E5EF8AE6D /* Pods */,
+				1B533F8130C7F29455A159C0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,6 +185,15 @@
 		0F29FBD325E53E2200D52C8E /* SosmedApp */ = {
 			isa = PBXGroup;
 			children = (
+				0F9636A125E68F2C0006DA81 /* Font */,
+				0F96369C25E611680006DA81 /* splash4.json */,
+				0F9636DE25E8D1E70006DA81 /* WTimg.json */,
+				0F9636E325E8D1F90006DA81 /* WTimg1.json */,
+				0F9636E825E8D87D0006DA81 /* wt.json */,
+				0F29FC2025E546EC00D52C8E /* ViewModel */,
+				0F29FC1F25E546E300D52C8E /* View */,
+				0F29FC1E25E546D500D52C8E /* Model */,
+				0F29FC0225E5430700D52C8E /* GoogleService-Info.plist */,
 				0F29FBD425E53E2200D52C8E /* SosmedAppApp.swift */,
 				0F29FBD625E53E2200D52C8E /* ContentView.swift */,
 				0F29FBD825E53E2D00D52C8E /* Assets.xcassets */,
@@ -130,6 +229,69 @@
 			path = SosmedAppUITests;
 			sourceTree = "<group>";
 		};
+		0F29FC1E25E546D500D52C8E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0F29FC1F25E546E300D52C8E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0F29FC2125E548A500D52C8E /* Login.swift */,
+				0F9636D425E718A70006DA81 /* Home.swift */,
+				0F9636D925E891AA0006DA81 /* WalkThroughScreen.swift */,
+				0F9636ED25E9CDFB0006DA81 /* SetupProfile.swift */,
+				0F9636F725E9FCB20006DA81 /* ImagePicker.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0F29FC2025E546EC00D52C8E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0F9636F225E9CF2D0006DA81 /* SetProfileViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0F9636A125E68F2C0006DA81 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				0F9636A725E68FFF0006DA81 /* Poppins-Black.otf */,
+				0F9636AB25E690040006DA81 /* Poppins-BlackItalic.otf */,
+				0F9636A425E68FFC0006DA81 /* Poppins-Bold.otf */,
+				0F9636A325E68FFB0006DA81 /* Poppins-BoldItalic.otf */,
+				0F9636B225E6900C0006DA81 /* Poppins-ExtraBold.otf */,
+				0F9636AC25E690050006DA81 /* Poppins-ExtraBoldItalic.otf */,
+				0F9636A825E690010006DA81 /* Poppins-ExtraLight.otf */,
+				0F9636A225E68FFA0006DA81 /* Poppins-ExtraLightItalic.otf */,
+				0F9636AE25E690070006DA81 /* Poppins-Italic.otf */,
+				0F9636A925E690020006DA81 /* Poppins-Light.otf */,
+				0F9636AF25E690080006DA81 /* Poppins-LightItalic.otf */,
+				0F9636AD25E690060006DA81 /* Poppins-Medium.otf */,
+				0F9636A525E68FFD0006DA81 /* Poppins-MediumItalic.otf */,
+				0F9636B125E6900B0006DA81 /* Poppins-Regular.otf */,
+				0F9636B025E690090006DA81 /* Poppins-SemiBold.otf */,
+				0F9636B425E6900F0006DA81 /* Poppins-SemiBoldItalic.otf */,
+				0F9636A625E68FFE0006DA81 /* Poppins-Thin.otf */,
+				0F9636AA25E690030006DA81 /* Poppins-ThinItalic.otf */,
+				0F9636B325E6900E0006DA81 /* SIL Open Font License.txt */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		1B533F8130C7F29455A159C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE7EFC3750B7061931A69914 /* Pods_SosmedApp.framework */,
+				8D27F7C61CCDE50668DCCF01 /* Pods_SosmedApp_SosmedAppUITests.framework */,
+				D14128D4E5B396C0AB54631E /* Pods_SosmedAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +299,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F29FBF625E53E2E00D52C8E /* Build configuration list for PBXNativeTarget "SosmedApp" */;
 			buildPhases = (
+				891070A7D213C342439940A9 /* [CP] Check Pods Manifest.lock */,
 				0F29FBCD25E53E2200D52C8E /* Sources */,
 				0F29FBCE25E53E2200D52C8E /* Frameworks */,
 				0F29FBCF25E53E2200D52C8E /* Resources */,
+				96A2ACE6E6B37FDCA840157D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +318,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F29FBF925E53E2E00D52C8E /* Build configuration list for PBXNativeTarget "SosmedAppTests" */;
 			buildPhases = (
+				BF0E2E6CF38F83D0A2E99DC7 /* [CP] Check Pods Manifest.lock */,
 				0F29FBDE25E53E2E00D52C8E /* Sources */,
 				0F29FBDF25E53E2E00D52C8E /* Frameworks */,
 				0F29FBE025E53E2E00D52C8E /* Resources */,
@@ -172,9 +337,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F29FBFC25E53E2E00D52C8E /* Build configuration list for PBXNativeTarget "SosmedAppUITests" */;
 			buildPhases = (
+				50B6C72DC5BA8753386E5AB0 /* [CP] Check Pods Manifest.lock */,
 				0F29FBE925E53E2E00D52C8E /* Sources */,
 				0F29FBEA25E53E2E00D52C8E /* Frameworks */,
 				0F29FBEB25E53E2E00D52C8E /* Resources */,
+				599CD3A93BFD8FCB7575F11E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,8 +400,32 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F9636E925E8D87D0006DA81 /* wt.json in Resources */,
+				0F9636B825E6900F0006DA81 /* Poppins-MediumItalic.otf in Resources */,
+				0F9636C725E6900F0006DA81 /* Poppins-SemiBoldItalic.otf in Resources */,
+				0F9636DF25E8D1E70006DA81 /* WTimg.json in Resources */,
+				0F9636BA25E6900F0006DA81 /* Poppins-Black.otf in Resources */,
+				0F29FC0325E5430700D52C8E /* GoogleService-Info.plist in Resources */,
+				0F9636C025E6900F0006DA81 /* Poppins-Medium.otf in Resources */,
+				0F9636B525E6900F0006DA81 /* Poppins-ExtraLightItalic.otf in Resources */,
+				0F9636BB25E6900F0006DA81 /* Poppins-ExtraLight.otf in Resources */,
+				0F9636BC25E6900F0006DA81 /* Poppins-Light.otf in Resources */,
+				0F9636E425E8D1F90006DA81 /* WTimg1.json in Resources */,
+				0F9636B925E6900F0006DA81 /* Poppins-Thin.otf in Resources */,
+				0F9636B625E6900F0006DA81 /* Poppins-BoldItalic.otf in Resources */,
+				0F9636C525E6900F0006DA81 /* Poppins-ExtraBold.otf in Resources */,
+				0F9636C125E6900F0006DA81 /* Poppins-Italic.otf in Resources */,
+				0F96369D25E611680006DA81 /* splash4.json in Resources */,
+				0F9636C325E6900F0006DA81 /* Poppins-SemiBold.otf in Resources */,
 				0F29FBDC25E53E2D00D52C8E /* Preview Assets.xcassets in Resources */,
+				0F9636BF25E6900F0006DA81 /* Poppins-ExtraBoldItalic.otf in Resources */,
+				0F9636C225E6900F0006DA81 /* Poppins-LightItalic.otf in Resources */,
+				0F9636C625E6900F0006DA81 /* SIL Open Font License.txt in Resources */,
+				0F9636C425E6900F0006DA81 /* Poppins-Regular.otf in Resources */,
+				0F9636BE25E6900F0006DA81 /* Poppins-BlackItalic.otf in Resources */,
+				0F9636BD25E6900F0006DA81 /* Poppins-ThinItalic.otf in Resources */,
 				0F29FBD925E53E2D00D52C8E /* Assets.xcassets in Resources */,
+				0F9636B725E6900F0006DA81 /* Poppins-Bold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,12 +445,121 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		50B6C72DC5BA8753386E5AB0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SosmedApp-SosmedAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		599CD3A93BFD8FCB7575F11E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SosmedApp-SosmedAppUITests/Pods-SosmedApp-SosmedAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SosmedApp-SosmedAppUITests/Pods-SosmedApp-SosmedAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SosmedApp-SosmedAppUITests/Pods-SosmedApp-SosmedAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		891070A7D213C342439940A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SosmedApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96A2ACE6E6B37FDCA840157D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SosmedApp/Pods-SosmedApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SosmedApp/Pods-SosmedApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SosmedApp/Pods-SosmedApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF0E2E6CF38F83D0A2E99DC7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SosmedAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0F29FBCD25E53E2200D52C8E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F29FC2225E548A500D52C8E /* Login.swift in Sources */,
+				0F9636EE25E9CDFB0006DA81 /* SetupProfile.swift in Sources */,
 				0F29FBD725E53E2200D52C8E /* ContentView.swift in Sources */,
+				0F9636D525E718A70006DA81 /* Home.swift in Sources */,
+				0F9636DA25E891AA0006DA81 /* WalkThroughScreen.swift in Sources */,
+				0F9636F825E9FCB20006DA81 /* ImagePicker.swift in Sources */,
+				0F9636F325E9CF2D0006DA81 /* SetProfileViewModel.swift in Sources */,
 				0F29FBD525E53E2200D52C8E /* SosmedAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +714,7 @@
 		};
 		0F29FBF725E53E2E00D52C8E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC378731B2C0ABBB23C8A392 /* Pods-SosmedApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -436,6 +737,7 @@
 		};
 		0F29FBF825E53E2E00D52C8E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 414A9633C0D7A22BC74A8E06 /* Pods-SosmedApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -458,6 +760,7 @@
 		};
 		0F29FBFA25E53E2E00D52C8E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06376428BB7D75AC6CE00979 /* Pods-SosmedAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -480,6 +783,7 @@
 		};
 		0F29FBFB25E53E2E00D52C8E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 973631E65AC5BCB8F73B457B /* Pods-SosmedAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +806,7 @@
 		};
 		0F29FBFD25E53E2E00D52C8E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B775E931F31086DF38BC7561 /* Pods-SosmedApp-SosmedAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -522,6 +827,7 @@
 		};
 		0F29FBFE25E53E2E00D52C8E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE521F84C4A99163CFD753C5 /* Pods-SosmedApp-SosmedAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

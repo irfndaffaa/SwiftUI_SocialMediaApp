@@ -1,0 +1,6 @@
+framework module Pods_SosmedAppTests {
+  umbrella header "Pods-SosmedAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
